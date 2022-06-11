@@ -62,3 +62,40 @@ console.log(typeof Person);
 
 var x;
 console.log(x);
+
+x = undefined;
+console.log(x);
+
+// null
+var y = null;
+console.log(y);
+
+// array
+var cars = ['BMW', 'Audi', 'Volvo'];
+console.log(cars);
+console.log(typeof cars);
+
+// empty string
+var z = '';
+console.log(z);
+console.log(typeof z);
+
+// concatenating strings
+var name = 'Juan';
+var last_name = 'Perez';
+
+var full_name = name + ' ' + last_name;
+console.log(full_name);
+
+var x = name + 2 + 4;
+console.log(x);
+
+var x = name + (2 + 4);
+console.log(x);
+
+// first_name = 'Juan';
+// console.log(first_name)
+
+let first_name;
+first_name - 'Juan';
+console.log(first_name)
